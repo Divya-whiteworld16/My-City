@@ -1,0 +1,44 @@
+/* 
+
+Project Name: My city
+Client: MY City
+Author: Divya Mishra
+Developed @ One Month in NYC 
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+body
+
+{background: url('../images/Gwalior-fort.jpg');
+	/*background: url('../images/cookie-monster.jpg');*/
+	/* the follow is the code to have the image display as a full page */
+	 font-family:  'Sriracha', cursive;
+	 background-position: right;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#container{background-color:#00BCD1;
+	float:right;
+	
+width:400px;
+color:black;
+padding: 20px;}
+h1{display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 80px;
+	color: #1D1313;
+}
+h2{display: flex;
+	justify-content: center;
+  align-items: center;
+	background-color: #E8CAA4;
+	color: #111625;
+	padding: 10px;
+	border border-radius: 10px;
+}p{color: #3A111C;}
+a{color: #F2EFE7;
+text-decoration: none;}
